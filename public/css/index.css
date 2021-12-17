@@ -19,6 +19,7 @@
     --hover-color: #462072cb;
     --bg-color: #fff;
 }
+
 /* scroll bar */
 html::-webkit-scrollbar {
   width: 0.5rem;
@@ -42,6 +43,7 @@ body {
   margin: auto;
   width: 100%;
 }
+
 /* buttons */
 .btn {
   background: var(--main-color);
@@ -170,6 +172,10 @@ header.shadow {
 .cart.active {
   display: flex;
 }
+
+.cart-total {
+  margin-bottom: 10px;
+}
 .cart-content {
   display: flex;
   flex-direction: column;
@@ -183,9 +189,6 @@ header.shadow {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.cart-box img {
-  width: 100px;
 }
 .cart-text {
   display: grid;
@@ -275,8 +278,8 @@ header.shadow {
   border-bottom: 2px solid var(--main-color);
 }
 
-/* popular section */
-.popular-content,
+/* essentials section */
+.essentials-content,
 .products-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -388,6 +391,7 @@ header.shadow {
   color: var(--text-color);
   font-size: 0.9rem;
 }
+
 /* product section */
 .products-content .box-text {
   background: var(#f1f1f1);
@@ -404,26 +408,27 @@ header.shadow {
 .products-content .box-text .bx:hover {
   background: var(--main-color);
 }
+
 /* subscribe */
-.newsletter {
+.subscribe {
   background: #f1f1f1;
 }
-.newsletter-content {
+.subscribe-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 1.5rem;
 }
-.newsletter-text h2 {
+.subscribe-text h2 {
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-.newsletter-content form {
+.subscribe-content form {
   display: grid;
   grid-template-columns: 1fr 0.4fr;
   column-gap: 1rem;
 }
-.newsletter-content form input {
+.subscribe-content form input {
   border: none;
   padding: 15px;
   outline-color: var(--main-color);
@@ -431,10 +436,10 @@ header.shadow {
   font-size: 1rem;
   color: var(--text-color);
 }
-.newsletter-content form input::placeholder {
+.subscribe-content form input::placeholder {
   font-size: 1rem;
 }
-.newsletter-content form .btn {
+.subscribe-content form .btn {
   text-transform: uppercase;
   color: var(--bg-color);
   cursor: pointer;
@@ -587,10 +592,10 @@ header.shadow {
   .about-img::after {
     height: 90%;
   }
-  .newsletter-content {
+  .subscribe-content {
     grid-template-columns: 1fr;
   }
-  .newsletter-content form {
+  .subscribe-content form {
     grid-template-columns: 1fr;
     row-gap: 1rem;
   }

@@ -1,5 +1,5 @@
 {
-  "name": "fp-prg",
+  "name": "pozy-prg",
   "description": "Paula Grata - Final Project",
   "version": "0.0.1",
   "private": true,
@@ -11,12 +11,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/befreshyo/wdp-fp.git"
+    "url": "git+https://github.com/befreshyo/pozy.git"
   },
   "bugs": {
-    "url": "https://github.com/befreshyo/wdp-fp/issues"
+    "url": "https://github.com/befreshyo/pozy/issues"
   },
-  "homepage": "https://github.com/befreshyo/wdp-fp#readme",
+  "homepage": "https://github.com/befreshyo/pozy#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.5"

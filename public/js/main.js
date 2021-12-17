@@ -114,12 +114,15 @@ function addItemToCart(title, price, imageSrc) {
     }
     var cartRowContents = `
         <div class="cart-item cart-column">
-            <span class="cart-item-title">${title}</span>
+            <span class="cart-item-title" style="font-weight: bold;">${title}</span>
         </div>
         <span class="cart-price cart-column">${price}</span>
         <div class="cart-quantity cart-column">
-            <input class="cart-quantity-input" type="number" value="1">
-            <i class='bx bx-trash' style=size='80px'></i>
+            quantity:  <input class="cart-quantity-input" type="number" value="1"
+            style="border-top-style: hidden; border-right-style: hidden; 
+            border-left-style: hidden;border-bottom-style: groove; background: 
+            transparent; border: none; width: 3em; margin-bottom: 10px;">
+            <i class='bx bx-trash'></i>
         </div>`
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
