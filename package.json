@@ -1,0 +1,24 @@
+{
+  "name": "fp-prg",
+  "description": "Paula Grata - Final Project",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/befreshyo/wdp-fp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/befreshyo/wdp-fp/issues"
+  },
+  "homepage": "https://github.com/befreshyo/wdp-fp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5"
+  }
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    Author:  Paula Grata
+    Class:   Software Engineering
+    Description: Paula's Final Project
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRG FP</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/img/popular4.png" type="image/x-icon">
+    <script src="store.js" async></script>
+</head>
+
+<body>
+    <a href="#home" class="scroll-top"><i class='bx bx-up-arrow-alt' ></i></a>
+    
+    <header>
+        <div class="nav container">
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#popular">Essentials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+            <a href="#" class="logo">pozy<span>.</span></a>
+            <div class="nav-icons">
+                <i class='bx bx-cart-alt' id="cart-icon" ></i>
+            </div>
+            <div class="cart">
+                <div class="cart-content">
+
+
+                    <section class="container content-section">
+                        <div class="cart-items">
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total:</strong>
+                            <span class="cart-total-price">$0</span>
+                        </div>
+                        <button class="btn btn-primary btn-purchase" type="button" style="border-style: solid; border: none;">Pay</button>
+                        <button class="btn btn-primary btn-clear" type="button" style="border-style: solid; border: none;">Clear Cart</button>
+                    </section>          
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home container" id="home">
+        <div class="home-text">
+            <h1><span>Make your house</span> 
+            <br>a home.</h1>
+            <p>Our vision is to create a better everyday life for the many people. On this site you can discover exactly what this means and find out who we are, what we do and what we stand for.</p>
+            <a href="#" class="btn">Shop More</a>
+        </div>
+        <div class="home-img">
+            <img src="/img/main.png">
+        </div>
+    </section>
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2>Essentials</h2>
+            <a href="#">Shop All</a>
+        </div>
+        <div class="popular-content">
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/popular1.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Nova Lounge Chair</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$749.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+             </div>
+
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/popular2.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Mateo Platform Bed</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$799.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/popular3.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Mateo 17" End Table</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$199.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/popular4.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Tyler Leather Recliner</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1949.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="/img/about.png" alt="">
+        </div>
+        <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+            Creating home furnishing that is well-designed, functional, affordable and sustainable, 
+            is a long journey with many stops along the way. Explore the thinking, processes and 
+            principles that turn our ideas into reality. 
+        </p>
+        <div class="features">
+            <i class='bx bxs-checkbox-checked'><span>100% committed to sustainable cotton</span></i>
+            <i class='bx bxs-checkbox-checked'><span>Only recycled or renewable based plastic</span></i>
+            <i class='bx bxs-checkbox-checked'><span>Green in every way</span></i>
+        </div>
+    </div>
+    </section>
+    <section class="products container" id="products">
+        <div class="heading">
+            <h2>Shop Our Top Picks</h2>
+            <a href="#">Shop All</a>
+        </div>
+        <div class="products-content">
+
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products1.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Nikkeby 17" Clothing Rack</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$70.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products2.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Marin Shiitake Bar Cabinet</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1699.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products3.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Mason Shadow Queen Bed</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$899.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>            
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products4.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Warren Walnut Dresser</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1499.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>
+                
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products5.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Ventana Glass Display Cabinet</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1899.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>            
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products6.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Balboa Swivel Armchair</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$1899.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products7.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Apollo 44" Coffee Table</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$799.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>            
+            <div class="box">
+                <div class="shop-items">
+                    <img class="shop-item-image" src="/img/products8.png">
+                    <div class="box-text">
+                        <div class="title-price">
+                            <span class="shop-item-title">Big Sur Square Arm Sofa</span>
+                            <div class="shop-item-details">
+                                <span class="shop-item-price">$4948.00</span>
+                            </div>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </div>
+                </div>
+                </div>            
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="newsletter-content container">
+            <div class="newsletter-text">
+                <h2>Inspiring Tips</h2>
+                <p>Sign Up And Get Inspiring Tips Emailed Weekly.</p>
+            </div>
+            <form action="">
+                <input type="email" name="" id="" placeholder="Enter your email..." required>
+                <input type="submit" value="Subscribe" class="btn">
+            </form>
+        </div>
+    </section>
+    <section class="footer container">
+        <div class="footer-box">
+            <h3>Help</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">Customer service</a>
+            <a href="#">Warranties</a>
+            <a href="#">Return policy</a>
+        </div>
+        <div class="footer-box">
+            <h3>Shop & Learn</h3>
+            <a href="#">Living Room</a>
+            <a href="#">Kitchen</a>
+            <a href="#">Dining</a>
+            <a href="#">Home Office</a>
+            <a href="#">Bedroom</a>
+            <a href="#">Bathroom</a>
+        </div>
+        <div class="footer-box">
+            <h3>Legal</h3>
+            <a href="#">Privacy & Security</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms and conditions</a>
+        </div>
+        <div class="footer-box">
+            <h3>Social</h3>
+           <div class="social">
+               <a href="#"><i class='bx bxl-facebook' ></i></a>
+               <a href="#"><i class='bx bxl-twitter' ></i></a>
+               <a href="#"><i class='bx bxl-instagram' ></i></a>
+           </div>
+        </div>
+    </section>
+    
+    <div class="copyright">
+        <p>&#169; STORENAME All Right Reserved</p>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
