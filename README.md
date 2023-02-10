@@ -7,11 +7,9 @@ npm install express-handlebars
 npm install -g nodemon
 
 
-CSS source: CarpoolVenom
-
 product image source: Ikea, Pottery Barn, Crates and Barrel
 
-Icons: https://icon-sets.iconify.design/
+Icons: [https://icon-sets.iconify.design/](https://icon-sets.iconify.design/)
 
+[link to site](https://paulagrata.com/lewisportfolio/finalproject/)
 
-https://paulagrata.com/lewisportfolio/finalproject/
