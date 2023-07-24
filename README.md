@@ -2,7 +2,7 @@
 uses: node.js, express
 
 ## install:
-npm install express-handlebars
+npm install express-handlebars <br>
 npm install -g nodemon
 
 ## sources: 
