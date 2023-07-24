@@ -1,5 +1,8 @@
 ## final project for web development 
-uses: node.js, express
+e-commerce site with add to cart functionality
+
+##uses: 
+node.js, express
 
 ## install:
 npm install express-handlebars <br>
