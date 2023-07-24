@@ -1,7 +1,7 @@
 ## final project for web development 
 e-commerce site with add to cart functionality
 
-##uses: 
+## uses: 
 node.js, express
 
 ## install:
