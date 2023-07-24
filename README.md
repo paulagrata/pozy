@@ -1,5 +1,5 @@
-### Pozy
-# final project for web development 
+# Pozy
+### final project for web development 
 e-commerce site utilizing functionality by adding products to your cart, with real-time updates that dynamically reflect your selections
 
 ## uses: 
