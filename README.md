@@ -1,4 +1,4 @@
-## final project
+## final project for web development 
 uses: node.js, express
 
 ## install:
