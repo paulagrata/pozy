@@ -1,5 +1,5 @@
 ## final project for web development 
-e-commerce site with add to cart functionality
+e-commerce site utilizing adding products to your cart, with real-time updates that dynamically reflect your selections. functionality
 
 ## uses: 
 node.js, express
